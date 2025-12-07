@@ -12,7 +12,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://MICROSERVICEPAYMENT/payment/doPayment
-    microserviceBooking:
-      endpoints:
-        endpoint:
-          uri: http://MICROSERVICEBOOKING/book/bookOrder
+  microserviceBooking:
+    endpoints:
+      endpoint:
+        uri: http://MICROSERVICEBOOKING/book/bookOrder
